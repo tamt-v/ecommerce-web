@@ -1,0 +1,41 @@
+.footer {
+    position: relative;
+    bottom: 0;
+}
+.footer-bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    line-height: 1.5;
+    background-color: #ff7e06;
+    color: white;
+}
+.footer-top {
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    color: white;
+}
+.ft-info {
+    margin: 1rem;
+}
+.ft-title {
+    padding: 1rem;
+    font-weight: bold;
+}
+.ft-content {
+    width: 280px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.highline-color {
+    color: #ff7e06;
+}
+.ft-icon {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 0.2rem;
+}

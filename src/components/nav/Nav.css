@@ -1,0 +1,17 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    background-color: rgb(9, 3, 36);
+    padding: 0 6rem;
+    font-size: 1rem;
+}
+
+.nav-icon {
+    margin-right: 1rem;
+    color: rgb(255, 196, 0);
+    font-size: 2rem;
+}

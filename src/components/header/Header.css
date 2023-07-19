@@ -1,0 +1,83 @@
+.header-main {
+    padding: 1.4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px rgb(9, 3, 36);
+}
+/* logo */
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    height: 70px;
+    width: auto;
+}
+.logo-text {
+    font-size: 70px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+/* search */
+.header-search {
+    margin: 0.8rem;
+    border: 3px solid rgb(31, 127, 253);
+    font-size: 20px;
+}
+.search-input {
+    height: 100%;
+    width: 400px;
+    padding: 0.5rem 1rem;    
+    border: none;
+}
+.search-btn {
+    background-color: rgb(31, 127, 253);    
+    padding: 0 1rem;
+    color: white;
+    height: 44px;
+}
+.search-btn:hover {
+    background-color: rgb(14, 98, 209);
+}
+/* user */
+.header-user {
+    display: flex;
+    font-size: 20px;
+}
+.user-info {
+    display: flex;
+    margin-right: 1.5rem;
+}
+.user-icon {
+    margin-right: 0.5rem;
+}
+.user-btn-store .link{
+    color: #0989ff;
+}
+/* Navigation */
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.nav-content {
+    display: flex;
+
+}
+.nav-btn {
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+.nav-auth-icon {
+    font-size: 30px;
+}
+.nav-content .link {
+    color: #010f1c;
+    transition: ease-in 0.5;
+}
+.nav-content .link:hover {
+    color: #0989ff;
+}
